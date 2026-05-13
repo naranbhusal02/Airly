@@ -10,14 +10,14 @@
 <body>
     <div class="container">
         <header>
-            <a href="https://airly.ictkalika.tech">
+            <a href="https://airly.ictkalika.tech" style="text-decoration: none;">
                 <h1 class="logo">Airly</h1>
                 </a>
                 <nav>
                     <ul>
                         <li><a href="#" class="active">Home</a></li>
                         <li><a href="#">Programs</a></li>
-                        <li><a href="https://naranbhusal02.ictkalike.tech">Contact</a></li>
+                        <li><a href="https://naranbhusal02.ictkalika.tech">Contact</a></li>
                     </ul>
                 </nav>
         </header>
@@ -26,7 +26,7 @@
             <div class="player-container">
                 <div class="album-art-container">
                     <div class="album-art rotating">
-                        <img src="Image.png" alt="Radio Nepal Logo" id="albumArt">
+                        <img src="logo/image.png" alt="Radio Nepal Logo" id="albumArt">
                     </div>
                     <div class="audio-waves">
                         <span></span>
@@ -42,6 +42,15 @@
                     <p id="currentTime">8:42:08 pm</p>
                 </div>
 
+                <div class="controls">
+                    <button id="playPauseBtn" class="control-btn">
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <div class="volumeControl">
+                        <i class="fas fa-volume-up" id="volumeIcon"></i>
+                        <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value ="1">
+                    </div>
+                    </div>
             <div id="loadingIndicator" class="loading-indicator hidden">
                 <i class="fas fa-spinner fa-spin"></i> Loading... 
             </div>
@@ -51,10 +60,11 @@
 
         <footer>
             <div class="footer-bottom">
-                &copy; 2026 Narayan Bhusal | Designed with <i class="fas fa-heart"></i> by <a href="https://naranbhusal02.ictkalika.tech">Narayan Bhusal</a>
+                &copy; 2026 Narayan Bhusal | Designed with <i class="fas fa-heart"></i> by <a href="https://naranbhusal02.ictkalika.tech" class="mylink">Narayan Bhusal</a>
             </div>
         </footer>
     </div>
+
 
     <audio id="radioPlayer" preload="none">
         <source src="https://radio-broadcast.ekantipur.com/stream" type="audio/mpeg">
