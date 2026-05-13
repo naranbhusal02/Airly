@@ -277,7 +277,8 @@ footer {
         border-top: 1px solid #3f3f5a;
         margin-top: 2rem;
     }
-
+    
+    /*Developer and copyright line css code*/
     .mylink{
         color: var(--text-color);
         text-decoration: none;

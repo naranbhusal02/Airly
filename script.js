@@ -36,9 +36,11 @@ document.addEventListener('DOMContentLoaded', () => {
         volumeIcon.className = 'fas';
         if(volume ===0) {
             volumeIcon.classList.add('fa-volume-mute');
-        } else if(volume < 0.5) {
+        } 
+        else if(volume < 0.5) {
             volumeIcon.classList.add('fa-volume-down');
-        } else {
+        } 
+        else {
             volumeIcon.classList.add('fa-volume-up');
         }
     }
