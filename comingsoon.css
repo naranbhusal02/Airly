@@ -1,0 +1,17 @@
+*{
+    background-color: #1a1a2e;
+    text-align: center;
+    color: white;
+}
+
+.coming {
+    color : white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 50px;
+}
+
+.para {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

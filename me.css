@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.wanted{
+    background-image: url(resource/wanted-bg.png);
+    height: 540px;
+    width: 1000px;
+    border-radius: 15px;
+    margin-left: 120px;
+}
+
+.wanted-text{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-left: 445px;
+    margin-top: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.wanted-image{
+    height: 150px;
+    align-items: center;
+    display: flex;
+    margin-left: 421.5px;
+    border: 2px solid black;
+    filter: grayscale(50%);
+}
+
+/*Grayscale change on hovering the image*/
+.wanted-image:hover{
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+p {
+    color: black;
+    font-family: Courier;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.active {
+    color: rgb(20, 215, 20);
+}
+
+.handles {
+    color: black;
+    font-family: Courier;
+}
+
+.macondo {
+    color: rgb(20, 215, 20);
+
+}
+
+.getback {
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+    font-family: Courier;
+}
